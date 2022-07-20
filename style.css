@@ -1,3 +1,60 @@
+/* -------------------------
+            font
+------------------------- */
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------------------
+        font decroation
+-------------------------------- */
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #ffffff;
+    margin-top: 52px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: -59px;
+}
+
+.top-baner {
+    display: flex;
+    margin: 50px 100px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.half-width {
+    padding-left: 70px;
+    width: 531px;
+    height: 420px;
+    left: 269px;
+    top: 165px;
+}
+
+/*----------------------
+         img
+----------------------- */
+.half-width img {
+    width: 400px;
+
+
+}
+
+/*--------------------
+         button
+----------------------- */
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(#ff0000, tomato);
+    font-weight: 700;
+    color: aliceblue;
+    padding: 10px 40px;
+    border-radius: 5px;
 }
