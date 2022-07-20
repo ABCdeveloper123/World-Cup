@@ -52,7 +52,7 @@ p {
 ----------------------- */
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(#DD0000, tomato);
+    background-image: linear-gradient(#ff0202, rgb(255, 38, 0));
     font-weight: 700;
     color: aliceblue;
     padding: 10px 40px;
@@ -90,7 +90,7 @@ p {
 
 .color {
     text-decoration: none;
-    background-image: linear-gradient(#ff0000, tomato);
+    background-image: linear-gradient(#ff0000, rgb(255, 38, 0));
     font-weight: 700;
     color: aliceblue;
     padding: 10px 40px;
@@ -130,13 +130,19 @@ section.container {
 /*--------------------- 
         footer
 ------------------------ */
+
+
 footer {
     text-align: center;
-    padding: 120px;
+
     background-color: rgb(2, 2, 2);
     color: white;
     margin-top: 130px;
 
+}
+
+footer {
+    margin: 0;
 }
 
 h2 {
@@ -151,8 +157,53 @@ hr {
 
 .social-footer-icons {
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+
+
     justify-self: center;
     grid-template: 20px;
+
+}
+
+/*-------------------------------------
+             media screen only  mobile
+             iphone ES
+      ------------------------------------  */
+
+@media only screen and (max-width: 688px) {
+    .top-baner {
+
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+
+
+    section.container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .courses {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .half-width {
+        background-color: black;
+        width: 450px;
+    }
+
+
+
+    .social-footer-icons {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
 
 }
